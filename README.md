@@ -14,7 +14,7 @@ The Asset Inventory Management System is a sophisticated web-based application m
 
 ## Technologies Utilized
 
-- **Frontend Technologies:** HTML, CSS
+- **Frontend Technologies:** HTML, CSS, Javascript
 - **Backend Framework:** PHP
 - **Database Management System:** MariaDB
 
