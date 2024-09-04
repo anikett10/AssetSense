@@ -8,7 +8,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {    $asset_id = $_POST["asset_id"];
     $asset_barcode = isset($_POST["asset_barcode"]) ? $_POST["asset_barcode"] : "";
     $asset_image_id = $_POST["asset_image_id"];
                                            
-  
     $sql = "INSERT INTO assets (`Asset ID`, `Product Name/Asset details`, `Category`, `Brand`, `Asset Barcode`, `Asset Image ID`) 
             VALUES ('$asset_id', '$product_details', '$category', '$brand', '$asset_barcode', '$asset_image_id')";
     
