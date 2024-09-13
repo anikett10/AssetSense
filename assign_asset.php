@@ -1,6 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include 'db_conn.php';
+    
     $empID = $_POST['empID'];
     $assetID = $_POST['assetID'];
 
